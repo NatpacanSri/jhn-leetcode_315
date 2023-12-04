@@ -81,8 +81,8 @@
 	</Vertical>
 
 	<Vertical>
-		<Slide>
-			<Code lang="js">
+		<Slide animate>
+			<Code lang="js" lines="1-12|2,3|4,10|5-8|5,9|11">
 				{`
 					var countSmaller = function (nums) {
 						const n = nums.length;
@@ -99,5 +99,10 @@
 				`}
 			</Code>
 		</Slide>
+		<Slide animate>
+			<h1 class="font-bold text-8xl">Finish</h1>
+
+		</Slide>
 	</Vertical>
+
 </Presentation>
